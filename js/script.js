@@ -1,4 +1,4 @@
-var url = 'http://api.icndb.com/jokes/random';
+var url = 'https://api.icndb.com/jokes/random';
 
 window.addEventListener('load', function(){     //zadanie dla chętnych. Dowcip pojawia sie po załadowaniu strony. Bez potrzeby naciskania na przycisk.
     getJoke();
