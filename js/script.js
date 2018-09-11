@@ -7,9 +7,9 @@ window.addEventListener('load', function(){     //zadanie dla chętnych. Dowcip 
 var button = document.getElementById('get-joke');
 var paragraph = document.getElementById('joke');
 
-/*button.addEventListener('click', function(){
+button.addEventListener('click', function(){
     getJoke();
-});*/
+});
 
 function getJoke() {
     var xhr = new XMLHttpRequest();
